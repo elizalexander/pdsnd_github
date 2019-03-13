@@ -236,6 +236,7 @@ def user_stats(df, city):
 
 
     if city == 'washington':
+        # Notify user that there is no gender or birth year data from Washington
         print('Gender and Birth Year Data have not been collected for the Washington Bikeshare Program')
     else:
         # Display counts of gender
