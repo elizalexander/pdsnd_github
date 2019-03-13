@@ -265,9 +265,9 @@ def see_raw_data(city):
         n = 0
 
     #Prompt user if they would like to see more raw data
-    while see_raw == 'yes':
+    while see_raw_data == 'yes':
         print(raw_df[n:n + 5])
-        see_raw = input('Would you like to see 5 more lines of raw data? (type yes or no): ')
+        see_raw_data = input('Would you like to see 5 more lines of raw data? (type yes or no): ')
         n += 5
 
 
