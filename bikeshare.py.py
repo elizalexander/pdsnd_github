@@ -74,6 +74,7 @@ def get_filters():
         else:
             print('Please enter a valid day or all.')
 
+    # tell user which city, month, and day they have selected
     print("Great! Let's look at data from " + city)
 
     if month == 'all':
